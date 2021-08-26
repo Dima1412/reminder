@@ -1,0 +1,35 @@
+
+
+.sticker {
+    width: 300px;
+    min-height: 240px;
+    background: rgb(253, 240, 186);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 33px;
+    color: rgb(0, 0, 83);
+    overflow-x: hidden;
+}
+
+.text {
+    padding-top: 20px;
+    margin: 20px;
+}
+
+
+.bttn {
+    padding-left: 2px;
+    padding-right: 2px;
+    float: right;
+    background: #f502b800;
+    color: rgb(0, 0, 83);
+    border: 1px solid rgb(0, 0, 83);
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+.bttn:hover {
+    background: #f502b82f;
+    color: rgba(253, 240, 186, 0.452);
+}

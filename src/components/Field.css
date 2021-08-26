@@ -1,0 +1,53 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addFunc {
+    margin: 20px;
+}
+
+.stickersField {
+    min-width: 340px;
+    max-width: 980px;
+    padding: 10px;
+    height: auto;
+    background: rgba(252, 4, 198, 0);
+    display: flex;
+    flex-flow: wrap;
+    border-radius: 3px;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background: #fafafa42;
+    border: 1px solid rgba(255, 255, 255, 0.144);
+    color: rgb(253, 240, 186);
+}
+
+.input:focus {
+    background: #fafafa15;
+    outline: none;
+}
+
+.btn {
+   width: 100px;
+    height: 30px;
+    background: #f502b85b;
+    color: rgb(253, 240, 186);
+    border: 1px solid rgba(255, 255, 255, 0.144);
+    border-radius: 3px;
+    margin-left: 2px;
+}
+
+.btn:hover {
+    background: #f502b82f;
+    color: rgba(253, 240, 186, 0.452);
+}
